@@ -43,3 +43,5 @@ In Tensorflow 2, the Keras APIs are specified to the `Tensorflow.Keras` APIs, no
 * A Training Workflow using `TF2.keras` on Multiple Accelerators: [TF2Keras_Distributed_Training](tf2keras_multiple_gpus/)
 
 #### Tensorflow Core
+
+* A Training Workflow using `TF2.Core` on Multiple Accelerators: [TF2Core_Distributed_Training](tf2core_multiple_gpus/)
