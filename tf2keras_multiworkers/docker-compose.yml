@@ -1,0 +1,19 @@
+version: "3"
+services:
+  worker1:
+    image: tensorflow/tensorflow:latest-py3-jupyter
+    container_name: worker1
+    ports: 
+      - "8889:8888"
+      - "6007:6006"
+      - "12345:12345"
+    volumes: 
+      - "/devops/distributed_training:/tf/distributed_training"
+  worker2:
+    image: tensorflow/tensorflow:latest-py3-jupyter
+    container_name: worker2
+    ports:
+      - "8890:8888"
+      - "12346:12345"
+    volumes: 
+      - "/devops/distributed_training:/tf/distributed_training"

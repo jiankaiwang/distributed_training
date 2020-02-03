@@ -38,10 +38,12 @@ We used [CIFAR-10 image dataset](https://www.cs.toronto.edu/~kriz/cifar.html) an
 
 In Tensorflow 2, the Keras APIs are specified to the `Tensorflow.Keras` APIs, not the original Keras from `https://keras.io/`.
 
-#### TF.Keras APIs
+#### Single Worker with Multiple Accelerators
 
 * A Training Workflow using `TF2.keras` on Multiple Accelerators: [TF2Keras_Distributed_Training](tf2keras_multiple_gpus/)
 
-#### Tensorflow Core
-
 * A Training Workflow using `TF2.Core` on Multiple Accelerators: [TF2Core_Distributed_Training](tf2core_multiple_gpus/)
+
+#### Multiple Workers
+
+* A Training Flow using `TF2.Keras` Model APIs on Multiple Workers: [tf2keras_Distributed_MultiWorkers](tf2keras_multiworkers)
