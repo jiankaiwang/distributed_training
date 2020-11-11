@@ -48,6 +48,10 @@ In Tensorflow 2, the Keras APIs are specified to the `Tensorflow.Keras` APIs, no
 
 * A Training Flow using `TF2.Keras` Model APIs on Multiple Workers: [tf2keras_Distributed_MultiWorkers](tf2keras_multiworkers)
 
+#### Cloud TPU
+
+* A Training Flow using `Tensorflow 2` APIs on the Cloud TPU: [TF2_CloudTPU](tf2_cloudtpu/tf2_cloudtpu.ipynb)
+
 #### Saving and Loading a Model
 
 * Saving and Loading a Model using a Distributed Strategy: [ipynb](tf2_save_load_models/)
